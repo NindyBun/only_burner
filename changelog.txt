@@ -1,0 +1,33 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 05. 05. 2021
+  Changes:
+    -Changed the starting heat pipe from 1MW to 1.8MW of heat transfer to make sense with the Starting CSP
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 05. 05. 2021
+  Changes:
+    -Cheapened the starting variants of the CSP and heat pipe
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 28. 04. 2021
+  Changes:
+    -Added Beta version of Heat Exchanger, Steam Turbine, and Heat Pipe
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 23. 04. 2021
+  Changes:
+    -Added Improved version of Heat Exchanger, Steam Turbine, and Heat Pipe
+    -Buffed the Basic versions of Heat Exchanger and Steam Turbine to use 3.6MW of energy rather than 1.8MW
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 21. 04. 2021
+  Changes:
+    -Removed Day and Night CSP
+    -Added Standard Basic and Standard Improved CSP
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 21. 04. 2021
+  Info:
+    Initial Release
+---------------------------------------------------------------------------------------------------
