@@ -1,1 +1,1 @@
-require("prototypes/entities")
+--require("prototypes/entities")
