@@ -4,7 +4,7 @@
 	"title": "Only Burner",
 	"author": "NindyBun",
 	"homepage":"",
-	"description": "Makes most electricly ran machines use a burner equivalent.",
+	"description": "Makes all possible electricly ran machines use a burner fuel source.",
 	"factorio_version": "1.1",
 	"dependencies": [
 		"base >= 1.0"
