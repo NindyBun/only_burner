@@ -25,7 +25,7 @@ for _, list in pairs(data.raw) do
                 if entity.name == "electric-mining-drill" then
                     data.raw["recipe"]["electric-mining-drill"].ingredients = {{"electronic-circuit", 3}, {"burner-mining-drill", 2}}
                 end
-                entity.name = entity.name.gsub("Electric", "Upgraded Burner")
+                entity.name = string.gsub(entity.name, "Electric", "Upgraded Burner")
                 entity.energy_source.emissions_per_minute = entity.energy_source.emissions_per_minute * settings.startup["burner-conversion-pollution-factor"].value            
                 entity.energy_usage = settings.startup["burner-non-inserter-conversion-multiplier"].value * util.parse_energy(entity.energy_usage) .. "J"
                 entity.energy_source.type = "burner"
